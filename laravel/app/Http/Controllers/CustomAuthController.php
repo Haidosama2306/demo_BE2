@@ -42,4 +42,8 @@ class CustomAuthController extends Controller
 
         return Redirect('login');
     }
+
+     public function welcomeindex() {
+        return view('welcome');
+    }
 }
